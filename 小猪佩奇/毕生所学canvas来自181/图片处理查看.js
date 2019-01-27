@@ -612,7 +612,8 @@ function 媒体库选择(fun) {
                         <text text="选择图片" textSize="25sp" gravity="center"/>
                         <list id="list" w="*">
                             <horizontal w="*" margin="5" bg={colors.toString(colors.GRAY)} gravity="center">
-                                <!--<img w="{{Math.round(device.width/7)}}px" h="{{Math.round(device.width/7)}}px" margin="6" scaleType="fitXY" src="file://{{filePath}}"/>-->
+                                <!--<img w="{{Math.round(device.width/7)}}px" h="{{Math.round(device.width/7)}}px" margin="6" scaleType="fitXY" src="file://{{filePath}}"/>
+-->
                                 <text w="*" h="25" margin="2" text="{{title}}" textSize="20sp" line="1" gravity="center"/>
                             </horizontal>
                         </list>
